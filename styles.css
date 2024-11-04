@@ -1,39 +1,101 @@
+/* Base Styling */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Georgia', serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
     color: #333;
-    background-color: #f9f9f9;
+    background-color: #fff;
 }
+
+/* Header Styling */
 header {
-    background-color: #3c91e6;
+    background-color: #222;
     color: #fff;
-    padding: 1rem;
+    padding: 1.5rem;
     text-align: center;
+    border-bottom: 4px solid #333;
 }
+header h1 {
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 2px;
+}
+
+/* Container Styling */
 .container {
-    padding: 1rem 2rem;
+    padding: 2rem 3rem;
     max-width: 800px;
     margin: auto;
+    background: #fafafa;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+/* Heading Styles */
 h1, h2 {
-    color: #3c91e6;
+    color: #222;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-bottom: 2px solid #555;
+    padding-bottom: 0.5rem;
+    font-family: 'Courier New', Courier, monospace;
 }
+
+/* Text Styling */
+p {
+    color: #444;
+    font-size: 1rem;
+}
+
+/* Feature List Styling */
 .feature-list, .tech-list {
     list-style-type: none;
     padding: 0;
+    margin: 0;
 }
 .feature-list li, .tech-list li {
-    background: #e3f2fd;
+    background: #333;
+    color: #fafafa;
     margin: 0.5rem 0;
-    padding: 0.75rem;
-    border-left: 5px solid #3c91e6;
+    padding: 0.75rem 1rem;
+    border-left: 6px solid #888;
+    font-family: 'Georgia', serif;
+    font-size: 1rem;
+    border-radius: 4px;
+    transition: transform 0.2s;
 }
+.feature-list li:hover, .tech-list li:hover {
+    transform: scale(1.02);
+}
+
+/* Footer Styling */
 footer {
     text-align: center;
-    padding: 1rem;
-    background-color: #3c91e6;
+    padding: 1.5rem;
+    background-color: #222;
     color: #fff;
     margin-top: 2rem;
+    border-top: 4px solid #333;
+}
+footer p {
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 1px;
+}
+
+/* Last Updated Date Styling */
+#last-updated {
+    font-style: italic;
+    color: #555;
+}
+
+/* Kitchen Vibe Styling */
+.container {
+    background-image: url('https://www.transparenttextures.com/patterns/concrete-wall.png');
+}
+header, footer {
+    background-image: url('https://www.transparenttextures.com/patterns/wood-pattern.png');
+}
+.feature-list li:before, .tech-list li:before {
+    content: "🍴 ";
+    color: #e67e22;
 }
