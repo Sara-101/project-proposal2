@@ -1,24 +1,25 @@
 /* Base Styling */
 body {
-    font-family: 'Georgia', serif;
+    font-family: 'Patrick Hand', cursive, Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    color: #333;
-    background-color: #fff;
+    color: #5a5a5a;
+    background-color: #fdf6e3; /* Light beige background */
 }
 
 /* Header Styling */
 header {
-    background-color: #222;
-    color: #fff;
+    background-color: #f8e2c2; /* Light warm beige */
+    color: #5a4b3b; /* Darker warm beige text */
     padding: 1.5rem;
     text-align: center;
-    border-bottom: 4px solid #333;
+    border-bottom: 4px solid #d4b89b; /* Soft brown for contrast */
 }
 header h1 {
-    font-family: 'Courier New', Courier, monospace;
-    letter-spacing: 2px;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 2rem;
+    letter-spacing: 1px;
 }
 
 /* Container Styling */
@@ -26,24 +27,23 @@ header h1 {
     padding: 2rem 3rem;
     max-width: 800px;
     margin: auto;
-    background: #fafafa;
-    border: 1px solid #ddd;
+    background: #fff;
+    border: 1px solid #e4d8c4;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* Heading Styles */
 h1, h2 {
-    color: #222;
-    font-weight: 700;
-    text-transform: uppercase;
-    border-bottom: 2px solid #555;
+    color: #5a4b3b; /* Darker warm beige */
+    font-weight: 600;
+    font-family: 'Patrick Hand', cursive;
+    border-bottom: 2px solid #e4d8c4; /* Light beige */
     padding-bottom: 0.5rem;
-    font-family: 'Courier New', Courier, monospace;
 }
 
 /* Text Styling */
 p {
-    color: #444;
+    color: #5a5a5a;
     font-size: 1rem;
 }
 
@@ -54,12 +54,12 @@ p {
     margin: 0;
 }
 .feature-list li, .tech-list li {
-    background: #333;
-    color: #fafafa;
+    background: #f8e2c2; /* Light warm beige */
+    color: #5a4b3b;
     margin: 0.5rem 0;
     padding: 0.75rem 1rem;
-    border-left: 6px solid #888;
-    font-family: 'Georgia', serif;
+    border-left: 6px solid #d4b89b; /* Soft brown */
+    font-family: 'Patrick Hand', cursive;
     font-size: 1rem;
     border-radius: 4px;
     transition: transform 0.2s;
@@ -72,20 +72,37 @@ p {
 footer {
     text-align: center;
     padding: 1.5rem;
-    background-color: #222;
-    color: #fff;
+    background-color: #f8e2c2;
+    color: #5a4b3b;
     margin-top: 2rem;
-    border-top: 4px solid #333;
+    border-top: 4px solid #d4b89b;
 }
 footer p {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Patrick Hand', cursive;
     letter-spacing: 1px;
 }
 
 /* Last Updated Date Styling */
 #last-updated {
     font-style: italic;
-    color: #555;
+    color: #a89976;
+}
+
+/* Kitchen Vibe Styling */
+.container {
+    background-color: #fff5eb; /* Subtle warm beige */
+}
+header, footer {
+    background-color: #f8e2c2;
+}
+.feature-list li:before, .tech-list li:before {
+    content: "🍲 ";
+    color: #a67c52;
+}
+
+/* Link to External Handwriting Font */
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
 }
 
 /* Kitchen Vibe Styling */
