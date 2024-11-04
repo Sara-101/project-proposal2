@@ -1,20 +1,20 @@
 /* Base Styling */
 body {
-    font-family: Arial, sans-serif; /* Simple black font for main content */
+    font-family: Arial, sans-serif; /* Simple font for readability */
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    color: #333;
-    background-color: #fff; /* Pure white background */
+    color: #000; /* Black text */
+    background-color: #fff; /* White background */
 }
 
 /* Header Styling */
 header {
-    background-color: #f8e2c2; /* Light warm beige */
-    color: #5a4b3b; /* Darker warm beige text */
+    background-color: #fff; /* White background */
+    color: #000; /* Black text */
     padding: 1.5rem;
     text-align: center;
-    border-bottom: 4px solid #d4b89b; /* Soft brown for contrast */
+    border-bottom: 2px solid #ccc; /* Light gray border for subtle separation */
 }
 header h1 {
     font-family: 'Patrick Hand', cursive; /* Handwriting font for headers */
@@ -27,23 +27,22 @@ header h1 {
     padding: 2rem 3rem;
     max-width: 800px;
     margin: auto;
-    background: #fff;
-    border: 1px solid #e4d8c4;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: #fff; /* White background */
+    border: 1px solid #ccc; /* Light gray border for structure */
 }
 
 /* Heading Styles */
 h1, h2 {
-    color: #5a4b3b; /* Darker warm beige */
+    color: #000; /* Black text */
     font-family: 'Patrick Hand', cursive; /* Handwriting font for headers */
     font-weight: 600;
-    border-bottom: 2px solid #e4d8c4; /* Light beige */
+    border-bottom: 1px solid #ccc; /* Light gray border for separation */
     padding-bottom: 0.5rem;
 }
 
 /* Text Styling */
 p {
-    color: #333; /* Black font for main content */
+    color: #000; /* Black text */
     font-size: 1rem;
 }
 
@@ -54,28 +53,23 @@ p {
     margin: 0;
 }
 .feature-list li, .tech-list li {
-    background: #f8e2c2; /* Light warm beige */
-    color: #5a4b3b;
+    background: #fff; /* White background */
+    color: #000; /* Black text */
     margin: 0.5rem 0;
     padding: 0.75rem 1rem;
-    border-left: 6px solid #d4b89b; /* Soft brown */
-    font-family: Arial, sans-serif; /* Simple black font for list items */
+    border-left: 6px solid #ccc; /* Light gray for subtle separation */
+    font-family: Arial, sans-serif; /* Simple font for readability */
     font-size: 1rem;
     border-radius: 4px;
-    transition: transform 0.2s;
-}
-.feature-list li:hover, .tech-list li:hover {
-    transform: scale(1.02);
 }
 
 /* Footer Styling */
 footer {
     text-align: center;
     padding: 1.5rem;
-    background-color: #f8e2c2;
-    color: #5a4b3b;
-    margin-top: 2rem;
-    border-top: 4px solid #d4b89b;
+    background-color: #fff; /* White background */
+    color: #000; /* Black text */
+    border-top: 2px solid #ccc; /* Light gray border for subtle separation */
 }
 footer p {
     font-family: 'Patrick Hand', cursive;
@@ -85,13 +79,13 @@ footer p {
 /* Last Updated Date Styling */
 #last-updated {
     font-style: italic;
-    color: #a89976;
+    color: #000; /* Black text */
 }
 
 /* Fork/Knife Emoji Styling */
 .feature-list li:before, .tech-list li:before {
     content: "🍴 ";
-    color: #a67c52;
+    color: #000; /* Black emoji */
     font-size: 1.5rem; /* Larger emoji */
 }
 
