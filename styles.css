@@ -1,11 +1,11 @@
 /* Base Styling */
 body {
-    font-family: 'Patrick Hand', cursive, Arial, sans-serif;
+    font-family: Arial, sans-serif; /* Simple black font for main content */
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    color: #5a5a5a;
-    background-color: #fdf6e3; /* Light beige background */
+    color: #333;
+    background-color: #fff; /* Pure white background */
 }
 
 /* Header Styling */
@@ -17,7 +17,7 @@ header {
     border-bottom: 4px solid #d4b89b; /* Soft brown for contrast */
 }
 header h1 {
-    font-family: 'Patrick Hand', cursive;
+    font-family: 'Patrick Hand', cursive; /* Handwriting font for headers */
     font-size: 2rem;
     letter-spacing: 1px;
 }
@@ -35,15 +35,15 @@ header h1 {
 /* Heading Styles */
 h1, h2 {
     color: #5a4b3b; /* Darker warm beige */
+    font-family: 'Patrick Hand', cursive; /* Handwriting font for headers */
     font-weight: 600;
-    font-family: 'Patrick Hand', cursive;
     border-bottom: 2px solid #e4d8c4; /* Light beige */
     padding-bottom: 0.5rem;
 }
 
 /* Text Styling */
 p {
-    color: #5a5a5a;
+    color: #333; /* Black font for main content */
     font-size: 1rem;
 }
 
@@ -59,7 +59,7 @@ p {
     margin: 0.5rem 0;
     padding: 0.75rem 1rem;
     border-left: 6px solid #d4b89b; /* Soft brown */
-    font-family: 'Patrick Hand', cursive;
+    font-family: Arial, sans-serif; /* Simple black font for list items */
     font-size: 1rem;
     border-radius: 4px;
     transition: transform 0.2s;
@@ -88,22 +88,16 @@ footer p {
     color: #a89976;
 }
 
-/* Kitchen Vibe Styling */
-.container {
-    background-color: #fff5eb; /* Subtle warm beige */
-}
-header, footer {
-    background-color: #f8e2c2;
-}
+/* Fork/Knife Emoji Styling */
 .feature-list li:before, .tech-list li:before {
-    content: "🍲 ";
+    content: "🍴 ";
     color: #a67c52;
+    font-size: 1.5rem; /* Larger emoji */
 }
 
 /* Link to External Handwriting Font */
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 
-}
 
 /* Kitchen Vibe Styling */
 .container {
