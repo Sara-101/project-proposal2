@@ -17,7 +17,7 @@ header {
     border-bottom: 2px solid #ccc; /* Light gray border for subtle separation */
 }
 header h1 {
-    font-family: 'Patrick Hand', cursive; /* Handwriting font for headers */
+    font-family: Arial, sans-serif, cursive; /* Handwriting font for headers */
     font-size: 2rem;
     letter-spacing: 1px;
 }
@@ -34,7 +34,7 @@ header h1 {
 /* Heading Styles */
 h1, h2 {
     color: #000; /* Black text */
-    font-family: 'Patrick Hand', cursive; /* Handwriting font for headers */
+    font-family: Arial, sans-serif, cursive; /* Handwriting font for headers */
     font-weight: 600;
     border-bottom: 1px solid #ccc; /* Light gray border for separation */
     padding-bottom: 0.5rem;
@@ -72,7 +72,7 @@ footer {
     border-top: 2px solid #ccc; /* Light gray border for subtle separation */
 }
 footer p {
-    font-family: 'Patrick Hand', cursive;
+    font-family: Arial, sans-serif, cursive;
     letter-spacing: 1px;
 }
 
